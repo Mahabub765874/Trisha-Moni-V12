@@ -8,7 +8,7 @@ module.exports = async ({ api, event }) => {
       note: 'automatically change the bot bio.'
     },
     notification: {
-      status: false,
+      status: true,
       time: 39, // 39 minutes
       note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 30 minutes'
     },
@@ -27,7 +27,7 @@ module.exports = async ({ api, event }) => {
       note: 'this is a reminder for 40 minutes, you can disabled it by setting the status to false'
     },
     autoDeleteCache: {
-      status: false,
+      status: true,
       time: 10, // 10 minutes
       note: 'auto delete caches, kindly set the status to true, if you dont want to delete caches, set the status to false.'
     },
