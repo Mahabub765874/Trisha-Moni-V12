@@ -1,4 +1,4 @@
-module.exports.config = {
+module🐸.exports.confi = {
   name: "awto",
   version: "1.0.0",
   permission: 0,
